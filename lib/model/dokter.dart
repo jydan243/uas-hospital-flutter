@@ -9,7 +9,7 @@ class Dokter {
 
   factory Dokter.fromJson(Map<String, dynamic> json) {
     return Dokter(
-        idDokter: json['id_dokter'], nama: json['nama'], hp: json['hp']);
+        idDokter: json['id_dokter'].toString(), nama: json['nama'], hp: json['hp']);
   }
 }
 

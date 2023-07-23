@@ -21,7 +21,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.blue,
         body: Center(
           child: SingleChildScrollView(
             child: ConstrainedBox(
@@ -36,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   Padding(
                     padding: EdgeInsets.all(20),
-                  child: Text('Created by: Reda Hayati Nufus',
+                  child: Text('Created by: Abdullah Sajidan',
                   style: TextStyle(
                     fontSize: 15,
                     fontWeight: FontWeight.bold,

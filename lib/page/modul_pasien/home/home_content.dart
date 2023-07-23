@@ -13,7 +13,7 @@ class _HomeContentState extends State<HomeContent> {
     return Center(
       child: Text(
         'Selamat Datang \nAplikasi Smart Hospital',
-        style: TextStyle(fontSize: 30),
+        style: TextStyle(fontSize: 25),
         textAlign: TextAlign.center,
       ),
     );

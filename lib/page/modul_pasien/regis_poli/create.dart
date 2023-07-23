@@ -21,7 +21,10 @@ class _CreatePageState extends State<CreatePage> {
   @override
   void initState() {
     super.initState();
+    setState(() {
     dokters = fetchDokters();
+      
+    });
   }
 
   @override

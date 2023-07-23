@@ -22,7 +22,7 @@ class _RegisPoliListState extends State<RegisPoliList> {
                 child: GestureDetector(
                   onTap: null,
                   child: Card(
-                    color: Colors.white,
+                    color: Colors.blue,
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: <Widget>[

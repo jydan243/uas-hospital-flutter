@@ -24,12 +24,12 @@ Widget largetButton(
       height: 60,
       width: double.infinity,
       child: new ElevatedButton(
-        child: Text('Button'),
-        onPressed: () {},
+        child: Text(label),
+        onPressed: onPressed,
         style: ElevatedButton.styleFrom(
             primary: Colors.purple,
             padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
-            textStyle: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+            textStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
       ));
 }
 

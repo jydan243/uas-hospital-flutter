@@ -20,7 +20,7 @@ class RegisPoli {
 
   factory RegisPoli.fromJson(Map<String, dynamic> json) {
     return RegisPoli(
-        idRegisPoli: json['id_regis_poli'],
+        idRegisPoli: json['id_regis_poli'].toString(),
         idPasien: Pasien.fromJson(json['id_pasien']),
         idDokter: Dokter.fromJson(json['id_dokter']),
         tglBooking: json['tgl_booking'],

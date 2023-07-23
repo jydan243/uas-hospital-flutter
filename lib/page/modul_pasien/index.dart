@@ -30,13 +30,16 @@ class _IndexPageState extends State<IndexPage> {
       ),
       body: _selectedContent,
       bottomNavigationBar: BottomNavigationBar(
+
         currentIndex: _selectedIndex,
         type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
+            title: Text('Regis Poli'),
               icon: Icon(Icons.assignment),),
-          BottomNavigationBarItem(icon: Icon(Icons.home),),
+          BottomNavigationBarItem(icon: Icon(Icons.home),title: Text('Home')),
           BottomNavigationBarItem(
+            title: Text('Pesan Obat'),
               icon: Icon(Icons.local_hospital),),
         ],
         onTap: _onItemTapped,
